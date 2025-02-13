@@ -69,7 +69,7 @@ export default function Example() {
                   </label>
                   <div className="mt-2">
                     <input
-                      value={info?.username || ""}
+                      value={info.username}
                       onChange={(event) => {
                         setInfo({
                           ...info,
@@ -94,7 +94,7 @@ export default function Example() {
                   </label>
                   <div className="mt-2">
                     <input
-                      value={info?.password || ""}
+                      value={info.password}
                       onChange={(event) => {
                         setInfo({
                           ...info,
